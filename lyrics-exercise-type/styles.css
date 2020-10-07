@@ -1,0 +1,28 @@
+html {
+    color: gray;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: 'Piazzolla', serif;
+    font-size: 15pt;
+}
+
+head {
+    font-size: 20px;
+    font-weight: normal;
+    color: black;
+
+}
+    .important {
+        border-style: solid;
+        border-width: 5px;
+        border-color: green;
+    }
+
+link {
+    color: green;
+}
+
+h1 {
+    font-size: 70px;
+    color:green;
+    font-weight: bold;
+}
