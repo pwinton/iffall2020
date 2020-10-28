@@ -1,0 +1,123 @@
+body {
+    font-family: 'Archivo Narrow', sans-serif;
+    
+}
+
+header {
+    background-color: rgba(255, 0, 0, 0.5);
+    text-align: center;
+    padding-top: 150px;
+    height: 330px;
+    background-image: url(https://i.pinimg.com/564x/9e/e1/05/9ee105b8fcc416556d55e4fdd354fac7.jpg);
+
+}
+
+img {
+    width: 200px;
+    height: 150px;
+    display: inline-block;
+    padding-bottom: 0;
+    padding-right: 9px;
+}
+
+.black-and-white {
+        width: 400px;
+        height: 300px;
+        float: right;
+        object-fit: cover;
+        margin: 0 0 2rem 2rem;
+}
+
+.column-container {
+    width: 960px;
+    margin: auto;
+}
+
+h3 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 34px;   
+}
+
+section {
+    padding-top: 1px;
+}
+
+div {
+    display: block;
+}
+
+.grid-pic {
+    width: 200px;
+    height: 150px;
+}
+
+.photo-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    font-style: bold;
+}
+
+.photo-caption {
+    font-size: 18px;
+    width: 425px;
+    color: white;
+}
+
+.grid-container img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    float: left;
+    margin-right: 12px;
+    margin-bottom: 20px;
+}
+
+.grid-container li {
+    display: block;
+    
+}
+
+.grid-container {
+        padding: 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+.second-section {
+    background-color: orange;
+    height: 715px;
+    font-size: 13pt;
+}
+
+.third-section {
+    background-color: rgb(108, 168, 224);
+    height: 685px;
+    padding-top: 1px;
+}
+
+.fourth-section {
+    background-color:pink;
+    height: 400px;
+    padding-top: 1px;
+}
+
+.conclusion {
+    text-align: center;
+    font-size: 25px;
+    margin: auto;
+    width: 75%;
+}
+
+footer {
+    background-color:white;
+    height: 70px;
+    padding-top: 27px;
+}
+
+.copyright {
+    color: #0a8e21;
+    padding-top: 27px;
+    font-size: large;
+}
