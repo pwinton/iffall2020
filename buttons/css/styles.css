@@ -1,0 +1,417 @@
+
+			body {
+				color: #333;
+				font-family: 'Open Sans', sans-serif;
+				margin: 0;
+				padding: 0;
+			}
+
+			main {
+				margin: 40px;
+			}
+
+			h1 {
+			 	font-size: 30px;
+			 	margin-bottom: 40px;
+			}
+
+			.button_container {
+				border: 1px solid #ddd;
+				margin: 0 10px 10px 0;
+				padding: 20px;
+				width: 300px;
+				height: 300px;
+				float: left;
+				overflow: hidden;
+				box-sizing: border-box;
+				text-align: center;
+			}
+
+
+
+			a#btn_spotify {
+				display: inline-block;
+				height: 50px;
+				box-sizing: border-box;
+				border-radius: 25px;
+				margin: auto;
+				margin-top: 100px;
+				padding: 10px 40px 0 40px;
+				background-color: #2ebd59;
+				border: 2px solid #2ebd59;
+				color: #fff;
+				font-size: 20px;
+				font-family: 'Montserrat', sans-serif;
+				font-weight: bold;
+				text-decoration: none;
+				transition: all .5s;
+			}
+
+			a#btn_spotify:hover {
+				background-color: #fff;
+				border: 2px solid #000;
+				color: #000;
+			}
+
+			a#btn_amazon {
+				display: block;
+				width: 100px;
+				height: 100px;
+				box-sizing: border-box;
+				border-radius: 50px;
+				margin: auto;
+				margin-top: 75px;
+				padding-top: 8px;
+				background-color: #232f3e;
+				color: #fff;
+				text-align: center;
+				font-size: 60px;
+				transition: all .2s;
+			}
+
+			a#btn_amazon:hover {
+				background-color: #fc9a18;
+			}
+
+			a#btn_twitter {
+				display: inline-block;
+				height: 40px;
+				box-sizing: border-box;
+				border-radius: 4px;
+				margin: auto;
+				margin-top: 105px;
+				padding: 10px 30px 0 30px;
+				background-color: #56cdf1;
+				color: #fff;
+				font-size: 18px;
+				font-family: 'Arial', sans-serif;
+				font-weight: bold;
+				text-decoration: none;
+			}
+
+			a#btn_twitter:hover {
+
+				/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#2ebfec+0,28a5cb+100 */
+				background: rgb(46,191,236); /* Old browsers */
+				background: -moz-linear-gradient(-45deg,  rgba(46,191,236,1) 0%, rgba(40,165,203,1) 100%); /* FF3.6-15 */
+				background: -webkit-linear-gradient(-45deg,  rgba(46,191,236,1) 0%,rgba(40,165,203,1) 100%); /* Chrome10-25,Safari5.1-6 */
+				background: linear-gradient(135deg,  rgba(46,191,236,1) 0%,rgba(40,165,203,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ebfec', endColorstr='#28a5cb',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+			}
+
+			a#btn_indiegogo {
+				display: inline-block;
+				position: relative;
+				margin:auto;
+				margin-top: 100px;
+				padding: 8px 16px;
+				background-color: #fff;
+				color: #eb1478;
+				font-family: 'Ubuntu', sans-serif;
+				font-size: 30px;
+				font-weight: bold;
+				text-transform: uppercase;
+				text-decoration: none;
+				letter-spacing: -2px;
+				transition: all .2s;
+			}
+
+			a#btn_indiegogo:before {
+				content: "";
+				display: block;
+				width: 0;
+				height: 0;
+				z-index: 1;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				background-color: #eb1478;
+				transition: all .5s;
+			}
+
+			a#btn_indiegogo:hover {
+				color: #fff;
+			}
+
+			a#btn_indiegogo:hover:before {
+				width: 100%;
+				height: 100%;
+				left: 0;
+				top: 0;
+			}
+
+			a#btn_indiegogo span {
+				position: relative;
+				z-index: 10;
+            }
+
+#btn_coke img {
+    display: block;
+    width: 100%;
+    margin: auto;
+    margin-top: 70px;
+    transition: 1s;
+}
+
+#btn_coke:hover img {
+    margin-top: 95px;
+    transform: rotate(45deg);
+}
+
+#btn_apple img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    width: 100%;
+    margin: auto;
+    margin-top: 50px;
+    transition: 1s;
+}
+
+#btn_apple:hover img {
+    transform: rotate(360deg);
+
+}
+
+#btn_ibm img {
+    display: block;
+    width: 100%;
+    margin: auto;
+    margin-top: 70px;
+    transition: 1s;
+}
+
+#btn_ibm:hover img {
+    margin-top: 95px;
+}
+
+#btn_hasbro img {
+    display: block;
+    width: 100%;
+    margin: auto;
+    margin-top: 70px;
+    transition: 1s;
+}
+
+#btn_hasbro:hover img {
+    margin-top: 95px;
+}
+
+#btn_michaelkors img {
+    display: block;
+    width: 100%;
+    margin: auto;
+    margin-top: 50px;
+    transition: 1s;
+}
+
+#btn_michaelkors:hover img {
+    margin-top: 50px;
+    width: 150%;
+    transform: rotate(90deg);
+    position: relative;
+    right: 70px;
+}
+
+#btn_ideo img {
+    display: block;
+    width: 100%;
+    margin: auto;
+    margin-top: 0px;
+    transition: 1s;
+}
+
+#btn_ideo:hover img {
+    margin-top: 50px;
+    width: 50%;
+}
+
+#btn_sardellastl img {
+    display: block;
+    width: 100%;
+    margin: auto;
+    margin-top: 40px;
+    transition: 1s;
+}
+
+#btn_sardellastl:hover img {
+    margin-top: 40px;
+    width: 160%;
+    position: relative;
+    right: 70px;
+}
+
+#btn_craigslist img {
+    display: block;
+    width: 100%;
+    margin: auto;
+    margin-top: 55px;
+    transition: 1s;
+}
+
+#btn_craigslist:hover img {
+    margin-top: 95px;
+}
+
+#btn_lyft img {
+    display: inline-block;
+    width: 100%;
+    margin: auto;
+    margin-top: 55px;
+    transition: 1s;
+}
+
+#btn_lyft:hover img {
+    margin-top: 95px;
+}
+
+#btn_samsung img {
+    display: block;
+    width: 100%;
+    margin: auto;
+    margin-top: 55px;
+    transition: 1s;
+}
+
+#btn_samsung:hover img {
+    margin-top: 95px;
+}
+
+#btn_dimecitycycles img {
+    display: block;
+    width: 70%;
+    margin: auto;
+    margin-top: 40px;
+    transition: 1s;
+}
+
+#btn_dimecitycycles:hover img {
+    margin-top: 20px;
+    transform: rotate(360deg);
+}
+
+#btn_cartoonnetwork img {
+    display: block;
+    width: 100%;
+    margin: auto;
+    margin-top: 55px;
+    transition: 1s;
+}
+
+#btn_cartoonnetwork:hover img {
+    margin-top: 95px;
+}
+
+#btn_bissingers img {
+    display: block;
+    width: 80%;
+    margin: auto;
+    margin-top: 5px;
+    transition: 1s;
+}
+
+#btn_bissingers:hover img {
+    width: 75%;
+}
+
+#btn_thetonightshow img {
+    display: block;
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    transition: 1s;
+}
+
+#btn_thetonightshow:hover img {
+    margin-top: 200px;
+}
+
+#btn_nike img {
+    display: block;
+    width: 200%;
+    margin: auto;
+    margin-top: -15px;
+    transition: 1s;
+    position: relative;
+    right: 125px
+}
+
+#btn_nike:hover img {
+    width: 75%;
+    margin-left: 100px;
+}
+
+#btn_missouribotanicalgarden img {
+    display: block;
+    width: 100%;
+    margin: auto;
+    margin-top: 85px;
+    transition: 1s;
+    position: relative;
+    right: 20px;
+}
+
+#btn_missouribotanicalgarden:hover img {
+    margin-top: 95px;
+    background-color: #fff;
+	border: 5px solid green;
+	color: #000;
+}
+
+#btn_hulkhogan img {
+    display: block;
+    width: 100%;
+    margin: auto;
+    margin-top: 10px;
+    transition: 1s;
+}
+
+#btn_hulkhogan:hover img {
+    width: 200%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#btn_tesla img {
+    display: block;
+    width: 70%;
+    margin: auto;
+    margin-top: 0px;
+    transition: 1s;
+}
+
+#btn_tesla:hover img {
+    margin-top: 95px;
+    background-color: #fff;
+	border: 2px solid #000;
+	color: #000;
+}
+
+#btn_colorrun img {
+    display: block;
+    width: 80%;
+    margin: auto;
+    margin-top: 0px;
+    transition: 1s;
+}
+
+#btn_colorrun:hover img {
+    margin-top: 95px;
+}
+
+#btn_moo img {
+    display: block;
+    width: 100%;
+    margin: auto;
+    margin-top: 80px;
+    transition: 1s;
+}
+
+#btn_moo:hover img {
+    margin-top: 95px;
+    background-color: #fff;
+				border: 10px solid green;
+				color: #000;
+}
