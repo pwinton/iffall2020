@@ -1,0 +1,91 @@
+html {
+    background-color: #e1ccb1;
+}
+
+section:not(:first-child) {
+    border-top: none;
+    width: 100%;
+}
+
+h1, p {
+    text-align: center;
+}
+
+p, li {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1, h2 {
+    font-family: 'Alfa Slab One', cursive;
+    }
+
+body {
+    max-width: 960px;
+    min-width: 320px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    margin-bottom: 30px;
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+.columnduo {
+    float: left;
+    width: 50%;
+}
+
+#leftpic, #rightpic {
+    position: relative;
+    left: 180px;
+    padding: 20px;
+}
+
+div {
+    display: inline;
+}
+
+.secondpic {
+    position: relative;
+    left: 100px;
+    margin-top: 70px;
+}
+
+#ingredients, #assemble, #tips {
+    position: relative;
+    left: 100px;
+}
+
+@media (min-width: 640px) {
+    .directions {display: flex; flex-wrap: wrap;}
+}
+
+@media (min-width: 640px) {
+    .instructions {display: flex; flex-wrap: wrap;}
+}
+
+@media (min-width: 640px) {
+    .extras {display: flex; flex-wrap: wrap;}
+}
+
+@media (min-width: 640px) {
+    #ingredients {width: 25%;}
+}
+@media (min-width: 640px) {
+    #concentrate {width: 50%;}
+}
+@media (min-width: 640px) {
+    #assemble {width: 50%;}
+}
+@media (min-width: 640px) {
+    #suggestions {width: 50%;}
+}
+@media (min-width: 640px) {
+    #tips {width: 50%;}
+}
