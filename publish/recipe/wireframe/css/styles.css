@@ -1,0 +1,58 @@
+section:not(:first-child) {
+    border-top: none;
+    width: 100%;
+}
+
+h1, p {
+    text-align: center;
+}
+
+body {
+    max-width: 960px;
+    min-width: 320px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+div {
+    display: inline;
+}
+
+#ingredients, #assemble, #tips {
+    position: relative;
+    left: 100px;
+}
+
+@media (min-width: 640px) {
+    .directions {display: flex; flex-wrap: wrap;}
+}
+
+@media (min-width: 640px) {
+    .instructions {display: flex; flex-wrap: wrap;}
+}
+
+@media (min-width: 640px) {
+    .extras {display: flex; flex-wrap: wrap;}
+}
+
+@media (min-width: 640px) {
+    #ingredients {width: 25%;}
+}
+@media (min-width: 640px) {
+    #concentrate {width: 50%;}
+}
+@media (min-width: 640px) {
+    #assemble {width: 50%;}
+}
+@media (min-width: 640px) {
+    #suggestions {width: 50%;}
+}
+@media (min-width: 640px) {
+    #tips {width: 50%;}
+}
