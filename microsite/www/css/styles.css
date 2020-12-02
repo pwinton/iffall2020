@@ -177,6 +177,46 @@ img#bottle {
     padding: 30px ;
 }
 
+@media (min-width: 640px) {
+    .homepage {display: flex; flex-wrap: wrap;}
+}
+
+@media (min-width: 640px) {
+    .history {display: flex; flex-wrap: wrap;}
+}
+
+@media (min-width: 640px) {
+    .thesource {display: flex; flex-wrap: wrap;}
+}
+
+@media (min-width: 640px) {
+    .theprocess {display: flex; flex-wrap: wrap;}
+}
+
+@media (min-width: 640px) {
+    .thenotes {display: flex; flex-wrap: wrap;}
+}
+
+
+.grid-container img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    float: left;
+    margin-right: 12px;
+    margin-bottom: 20px;
+}
+
+.grid-container li {
+    display: block;
+    
+}
+
+.grid-container {
+        padding: 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 
 
 
