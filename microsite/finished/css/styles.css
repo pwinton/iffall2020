@@ -1,0 +1,239 @@
+
+
+header {
+    text-align: center; 
+}
+
+h1 {
+    font-family: 'Parisienne', cursive;
+    font-size: 75px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+@media (max-width: 860px) {
+    h1 { font-size: 50px;}
+}
+
+@media (max-width: 740px) {
+    h1 { font-size: 40px;}
+}
+
+body {
+    width: 100%;
+    min-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.homepage {
+    background-image: url("https://www.chanel.com/images/w_0.51,h_0.51,c_crop/q_auto,f_jpg,fl_lossy,dpr_2/w_620/n-5-eau-de-parfum-spray-3-4fl-oz--packshot-default-125530-8833876492318.jpg");
+    padding: 0;
+    margin-top: -20px;
+}
+
+h2 {
+    list-style-type: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    margin-left: 38px;
+}
+
+h2#firstgroup {
+    margin-top: 0px;
+}
+
+h3 {
+    list-style-type: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+}
+
+ul{
+    list-style-type: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+}
+
+.navigation {
+    width: 30%;
+    margin-top: 50px;
+}
+
+@media (min-width: 700px) {
+    .navigation { font-size: 30px;}
+
+a:-webkit-any-link {
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+div.footer {
+    font-size: 8pt;
+    margin-top: 950px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+section.history {
+    font-size: 12pt;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    width:100%;
+}
+
+div#history.column {
+    padding-left: 41px;
+}
+
+section.thesource {
+    font-size: 12pt;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 0;
+    display: block;
+    width: 100%;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
+  }
+
+#stretchable-grid-items aside {
+    margin: 10%;
+}
+
+section.theprocess {
+    font-size: 12pt;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+div#perfumeur {
+    width: 57%;
+}
+
+p {
+    font-size: 10pt;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+@media (min-width: 600) {
+    div.column {width: 100%;}
+}
+
+#firstpic.column {
+    margin-top: 75px;
+}
+
+img.firstpic {
+    width: 100%;
+}
+
+img.sidepic {
+    width: 150%;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  div#history.column {
+      width: 50%;
+      padding-top: 30px;
+  }
+
+  .grid li{
+    float: left;
+    justify-items: center;
+}
+
+.grid:after{
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+  .grid img{
+    width: 300%;
+}
+.grid li{
+    display: block;
+    width: 25%;
+    text-align: center;
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+}
+
+ul.grid::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+img.secondpic {
+    width: 100%;
+}
+
+@media (min-width: 640px) {
+    .index {display: flex; flex-wrap: wrap;}
+}
+
+@media (min-width: 64px) {
+    .index {display: flex; flex-wrap: wrap;}
+}
+
+@media (min-width: 640px) {
+    .history {display: flex; flex-wrap: wrap;}
+}
+
+@media (min-width: 640px) {
+    .thesource {display: flex; flex-wrap: wrap;}
+}
+
+@media (min-width: 640px) {
+    .theprocess {display: flex; flex-wrap: wrap;}
+}
+
+@media (min-width: 640px) {
+    .thescents {display: flex; flex-wrap: wrap;}
+}
+
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    /* This is better for small screens, once min() is better supported */
+    /* grid-template-columns: repeat(auto-fill, minmax(min(200px, 100%), 1fr)); */
+    grid-gap: 1rem;
+    /* This is the standardized property now, but has slightly less support */
+    /* gap: 1rem */
+  }
+
+ul.grid li div {
+    font-size: 10pt;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+a.wikipedia {
+    font-size: small;
+    margin-top: 155px;
+    margin-left: 50px;
+    text-decoration: underline;
+    text-align: right;
+}
